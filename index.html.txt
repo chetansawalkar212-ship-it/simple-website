@@ -6,24 +6,40 @@
 </head>
 <body>
 
+    <nav>
+        <h2>Chetan</h2>
+    </nav>
+
     <header>
         <h1>Hi, I'm Chetan 👋</h1>
-        <p>BTech AI/ML Student</p>
+        <p>Aspiring Data Scientist | AI/ML Student</p>
     </header>
 
-    <section>
-        <h2>About Me</h2>
-        <p>I am learning web development and data science.</p>
+    <section class="projects">
+        <h2>My Projects</h2>
+
+        <div class="card">
+            <h3>Python Calculator</h3>
+            <p>Simple calculator using Python.</p>
+            <a href="https://github.com/your-username/python-calculator" target="_blank">View Code</a>
+        </div>
+
+        <div class="card">
+            <h3>Simple Website</h3>
+            <p>Portfolio website using HTML & CSS.</p>
+            <a href="https://your-username.github.io/simple-website/" target="_blank">Live Demo</a>
+        </div>
+
     </section>
 
     <section>
         <h2>Skills</h2>
-        <ul>
-            <li>Python</li>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-        </ul>
+        <p>Python • HTML • CSS • JavaScript • SQL</p>
+    </section>
+
+    <section>
+        <h2>Contact</h2>
+        <p>Email: your-email@example.com</p>
     </section>
 
     <footer>
